@@ -4,4 +4,8 @@ class PagesController < ApplicationController
     @title = "Good morning"
   end
 
+  def about
+    @title = 'about as'
+  end
+
 end
